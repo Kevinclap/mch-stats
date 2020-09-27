@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // import * as React from "react"
-import { useQuery, QueryCache, ReactQueryCacheProvider } from "react-query";
-import { ReactQueryDevtools } from "react-query-devtools";
+// import { useQuery, QueryCache, ReactQueryCacheProvider } from "react-query";
+// import { ReactQueryDevtools } from "react-query-devtools";
 import axios from 'axios';
 
 // const queryCache = new QueryCache();
@@ -9,7 +9,7 @@ import axios from 'axios';
 const Main = () => {
     
     const [stats, setStats] = useState();
-    const [user, setUser] = useState();
+    // const [user, setUser] = useState();
 
     useEffect(() => {
         let name = 'MCH_MrMangou';

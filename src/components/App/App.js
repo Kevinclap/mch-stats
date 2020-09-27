@@ -1,9 +1,9 @@
 import React from 'react';
 import Main from '../Main/Main'
-import { QueryCache, ReactQueryCacheProvider } from "react-query";
-import { ReactQueryDevtools } from "react-query-devtools";
+// import { QueryCache, ReactQueryCacheProvider } from "react-query";
+// import { ReactQueryDevtools } from "react-query-devtools";
 
-const queryCache = new QueryCache();
+// const queryCache = new QueryCache();
 
 
 function App() {
